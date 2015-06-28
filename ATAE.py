@@ -18,28 +18,37 @@ parser.add_argument('ASN', metavar='ASN', type=int)
 
 args = parser.parse_args()
 
-ASN = args.ASN
+ASNlist = args.ASN
 
 
-baseurl = "https://beta.peeringdb.com/api/asn/" + str(ASN)
+def processASNs(ASNlist):
 
-raw = urllib.urlopen(baseurl);
+    for ASN in ASNlist:
 
-try:
-    jresponse = json.load(raw)
-except ValueError:
-    print "JSON ValueError (probably zero length doc returned), most likely because " + str(ASN) + " isn't in the PeeringDB"
-    sys.exit(1)
+        baseurl = "https://beta.peeringdb.com/api/asn/" + str(ASN)
 
-faclist = jresponse['data'][0]['facility_set']
+        raw = urllib.urlopen(baseurl)
 
-for index, facility in enumerate(d['facility'] for d in faclist):
-    if facility == 1:
-        print "YAY! They're at Equinix-Ashburn"
+        try:
+            jresponse = json.load(raw)
+        except ValueError:
+            print "JSON ValueError (probably zero length doc returned), most likely because " + str(ASN) + " isn't in the PeeringDB"
+            sys.exit(1)
 
-ixcount = index + 1
-if ixcount == 1:
-    print "This ASN is present at " + str(ixcount) + " IX"
-else:
-    print "This ASN is present at " + str(ixcount) + " IXs"
+        faclist = jresponse['data'][0]['facility_set']
 
+        for index, facility in enumerate(d['facility'] for d in faclist):
+            if facility == 1:
+                print "YAY! They're at Equinix-Ashburn"
+
+        ixcount = index + 1
+        if ixcount == 1:
+            print "This ASN is present at " + str(ixcount) + " IX"
+        else:
+            print "This ASN is present at " + str(ixcount) + " IXs"
+
+
+def main():
+    processASNs(ASNlist)
+
+main()
