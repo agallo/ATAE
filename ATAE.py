@@ -21,9 +21,6 @@ ASN = args.ASN
 
 baseurl = "https://beta.peeringdb.com/api/asn/" + str(ASN)
 
-print baseurl
-
-'''
 
 
 raw = urllib.urlopen(baseurl);
@@ -35,4 +32,3 @@ for index, facility in enumerate(d['facility'] for d in faclist):
     if facility == 1:
         print "YAY! They're at Equinix-Ashburn"
     print index, facility
-'''
