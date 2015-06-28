@@ -21,8 +21,6 @@ ASN = args.ASN
 
 
 baseurl = "https://beta.peeringdb.com/api/asn/" + str(ASN)
-print baseurl
-print type(baseurl)
 
 raw = urllib.urlopen(baseurl);
 jresponse = json.load(raw)
@@ -32,5 +30,5 @@ faclist = jresponse['data'][0]['facility_set']
 for index, facility in enumerate(d['facility'] for d in faclist):
     if facility == 1:
         print "YAY! They're at Equinix-Ashburn"
-    print index, facility
+#    print index, facility
 
