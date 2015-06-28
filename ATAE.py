@@ -3,7 +3,6 @@
 __author__ = 'agallo'
 
 # use peeringDB 2.0 API to see if a given ASN lists itself on the Equinix-Ashburn IX
-# TODO report count of IXs ASN is at
 
 import urllib, json
 import sys
@@ -36,5 +35,10 @@ faclist = jresponse['data'][0]['facility_set']
 for index, facility in enumerate(d['facility'] for d in faclist):
     if facility == 1:
         print "YAY! They're at Equinix-Ashburn"
-#    print index, facility
+
+ixcount = index + 1
+if ixcount == 1:
+    print "This ASN is present at " + str(ixcount) + " IX"
+else:
+    print "This ASN is present at " + str(ixcount) + " IXs"
 
