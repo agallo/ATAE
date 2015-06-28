@@ -3,10 +3,10 @@
 __author__ = 'agallo'
 
 # use peeringDB 2.0 API to see if a given ASN lists itself on the Equinix-Ashburn IX
-# TODO error handling for networks not in peeringDB (url fetch returns empty doc)
 # TODO report count of IXs ASN is at
 
 import urllib, json
+import sys
 from argparse import ArgumentParser
 
 # setup some command line arguments
@@ -24,7 +24,12 @@ ASN = args.ASN
 baseurl = "https://beta.peeringdb.com/api/asn/" + str(ASN)
 
 raw = urllib.urlopen(baseurl);
-jresponse = json.load(raw)
+
+try:
+    jresponse = json.load(raw)
+except ValueError:
+    print "JSON ValueError (probably zero length doc returned), most likely because " + str(ASN) + " isn't in the PeeringDB"
+    sys.exit(1)
 
 faclist = jresponse['data'][0]['facility_set']
 
