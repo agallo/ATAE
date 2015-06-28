@@ -35,7 +35,8 @@ def processASNs(ASNlist):
             jresponse = json.load(raw)
         except ValueError:
             print "JSON ValueError (probably zero length doc returned), most likely because " + str(ASN) + " isn't in the PeeringDB"
-            sys.exit(1)
+#            sys.exit(1)
+            pass
 
         faclist = jresponse['data'][0]['facility_set']
 
