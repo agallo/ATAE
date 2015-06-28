@@ -3,7 +3,9 @@
 __author__ = 'agallo'
 
 # use peeringDB 2.0 API to see if a given ASN lists itself on the Equinix-Ashburn IX
-# TODO change arg parsing (and add iteration logic) to allow for multiple space separated ASNs
+# TODO better reporting inside loop to explain which ASNs are in Ashburn
+# TODO (possibly) report AS name from JSON
+
 
 import urllib, json
 import sys
@@ -14,7 +16,7 @@ from argparse import ArgumentParser
 parser = ArgumentParser(description="use peeringDB 2.0 API to see if a given ASN lists itself"
                                     " on the Equinix-Ashburn IX")
 
-parser.add_argument('ASN', metavar='ASN', type=int)
+parser.add_argument('ASN', metavar='ASN', type=int, nargs='+')
 
 args = parser.parse_args()
 
