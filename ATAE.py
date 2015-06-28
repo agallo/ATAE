@@ -4,6 +4,7 @@ __author__ = 'agallo'
 
 # use peeringDB 2.0 API to see if a given ASN lists itself on the Equinix-Ashburn IX
 # TODO error handling for networks not in peeringDB (url fetch returns empty doc)
+# TODO report count of IXs ASN is at
 
 import urllib, json
 from argparse import ArgumentParser
