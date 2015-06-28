@@ -3,7 +3,7 @@
 __author__ = 'agallo'
 
 # use peeringDB 2.0 API to see if a given ASN lists itself on the Equinix-Ashburn IX
-# TODO change arg parsing to allow for multiple space separated ASNs
+# TODO change arg parsing (and add iteration logic) to allow for multiple space separated ASNs
 
 import urllib, json
 import sys
