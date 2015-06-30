@@ -26,6 +26,8 @@ def processASNs(ASNlist):
 
     for ASN in ASNlist:
 
+        skipindex = False
+
         baseurl = "https://beta.peeringdb.com/api/asn/" + str(ASN)
 
         raw = urllib.urlopen(baseurl)
@@ -34,7 +36,6 @@ def processASNs(ASNlist):
             jresponse = json.load(raw)
         except ValueError:
             print "JSON ValueError (probably zero length doc returned), most likely because " + str(ASN) + " isn't in the PeeringDB"
-#            sys.exit(1)
             skipindex = True
             pass
 
