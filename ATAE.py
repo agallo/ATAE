@@ -7,7 +7,6 @@ __author__ = 'agallo'
 # TODO - need better error handling for ASNs not in the database
 
 import urllib, json
-import sys
 from argparse import ArgumentParser
 
 # setup some command line arguments
