@@ -39,10 +39,9 @@ def processASNs(ASNlist):
             skipindex = True
             pass
 
-        name = jresponse['data'][0]['name']
-        faclist = jresponse['data'][0]['facility_set']
-
         if not skipindex:
+            name = jresponse['data'][0]['name']
+            faclist = jresponse['data'][0]['facility_set']
             for index, facility in enumerate(d['facility'] for d in faclist):
                 if facility == 1:
                     print "YAY! " + name + " is at Equinix-Ashburn"
