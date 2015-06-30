@@ -4,7 +4,7 @@ __author__ = 'agallo'
 
 # use peeringDB 2.0 API to see if a given ASN lists itself on the Equinix-Ashburn IX
 # TODO better reporting inside loop to explain which ASNs are in Ashburn
-
+# TODO - need better error handling for ASNs not in the database
 
 import urllib, json
 import sys
