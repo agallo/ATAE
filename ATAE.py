@@ -44,7 +44,6 @@ def processASNs(ASNlist):
             for index, facility in enumerate(d['facility'] for d in faclist):
                 if facility == 1:
                     print "YAY! " + name + " is at Equinix-Ashburn"
-
             ixcount = index + 1
             if ixcount == 1:
                 print name + " is present at " + str(ixcount) + " IX"
