@@ -35,20 +35,25 @@ def processASNs(ASNlist):
         except ValueError:
             print "JSON ValueError (probably zero length doc returned), most likely because " + str(ASN) + " isn't in the PeeringDB"
 #            sys.exit(1)
+            skipindex = True
             pass
 
         name = jresponse['data'][0]['name']
         faclist = jresponse['data'][0]['facility_set']
 
-        for index, facility in enumerate(d['facility'] for d in faclist):
-            if facility == 1:
-                print "YAY! " + name + " is at Equinix-Ashburn"
+        if not skipindex:
+            for index, facility in enumerate(d['facility'] for d in faclist):
+                if facility == 1:
+                    print "YAY! " + name + " is at Equinix-Ashburn"
 
-        ixcount = index + 1
-        if ixcount == 1:
-            print name + " is present at " + str(ixcount) + " IX"
+            ixcount = index + 1
+            if ixcount == 1:
+                print name + " is present at " + str(ixcount) + " IX"
+            else:
+                print name + "  is present at " + str(ixcount) + " IXs"
         else:
-            print name + "  is present at " + str(ixcount) + " IXs"
+            print str(ASN) + " does not appear to be in the peeringDB."
+        print
 
 
 def main():
