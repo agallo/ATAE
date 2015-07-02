@@ -24,9 +24,6 @@ ASNlist = args.ASN
 
 def processASNs(ASNlist):
 
-    mbrasn = []
-    mbrname = []
-
     for ASN in ASNlist:
 
         skipindex = False
@@ -59,11 +56,14 @@ def processASNs(ASNlist):
             print str(ASN) + " does not appear to be in the peeringDB."
         print
 
+        print "print prior to return: " + str(mbrasn) + str(mbrname)
         return mbrasn, mbrname
 
 
 def main():
     mbrasn, mbrname = processASNs(ASNlist)
+    print "print AFTER return: " + str(mbrasn) + str(mbrname)
+
     print "******SUMMARY"
     print "The following networks are listed as Equinix-Ashburn Participants"
     for item in zip(mbrasn, mbrname):
