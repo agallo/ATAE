@@ -23,6 +23,9 @@ ASNlist = args.ASN
 
 def processASNs(ASNlist):
 
+    mbrasn = []
+    mbrname = []
+
     for ASN in ASNlist:
 
         skipindex = False
@@ -44,6 +47,8 @@ def processASNs(ASNlist):
             for index, facility in enumerate(d['facility'] for d in faclist):
                 if facility == 1:
                     print "YAY! " + name + " is at Equinix-Ashburn"
+                    mbrasn.append(ASN)
+                    mbrname.append(name)
             ixcount = index + 1
             if ixcount == 1:
                 print name + " is present at " + str(ixcount) + " IX"
@@ -53,6 +58,10 @@ def processASNs(ASNlist):
             print str(ASN) + " does not appear to be in the peeringDB."
         print
 
+        print "******SUMMARY"
+        print "The following networks are listed as Equinix-Ashburn Participants"
+        for item in zip(mbrasn, mbrname):
+            print item
 
 def main():
     processASNs(ASNlist)
