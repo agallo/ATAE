@@ -59,12 +59,15 @@ def processASNs(ASNlist):
             print str(ASN) + " does not appear to be in the peeringDB."
         print
 
-        print "******SUMMARY"
-        print "The following networks are listed as Equinix-Ashburn Participants"
-        for item in zip(mbrasn, mbrname):
-            print item
+        return mbrasn, mbrname
+
 
 def main():
-    processASNs(ASNlist)
+    mbrasn, mbrname = processASNs(ASNlist)
+    print "******SUMMARY"
+    print "The following networks are listed as Equinix-Ashburn Participants"
+    for item in zip(mbrasn, mbrname):
+        print item
+
 
 main()
