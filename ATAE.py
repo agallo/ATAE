@@ -3,9 +3,7 @@
 __author__ = 'agallo'
 
 # use peeringDB 2.0 API to see if a given ASN lists itself on the Equinix-Ashburn IX
-# TODO better reporting inside loop to explain which ASNs are in Ashburn
-# TODO - need better error handling for ASNs not in the database
-# TODO - summary logic is inside ASNlist iteration loop, which doesn't make sense
+# TODO - maybe use prettytable/tabulate/panda to form the summary table?
 
 import urllib, json
 from argparse import ArgumentParser
@@ -37,7 +35,7 @@ def processASNs(ASNlist):
         try:
             jresponse = json.load(raw)
         except ValueError:
-            print "JSON ValueError (probably zero length doc returned), most likely because " + str(ASN) + " isn't in the PeeringDB"
+            # print "JSON ValueError (probably zero length doc returned), most likely because " + str(ASN) + " isn't in the PeeringDB"
             skipindex = True
             pass
 
@@ -46,30 +44,27 @@ def processASNs(ASNlist):
             faclist = jresponse['data'][0]['facility_set']
             for index, facility in enumerate(d['facility'] for d in faclist):
                 if facility == 1:
-                    print "YAY! " + name + " is at Equinix-Ashburn"
+                    # print "YAY! " + name + " is at Equinix-Ashburn"
                     mbrasn.append(ASN)
                     mbrname.append(name)
-            ixcount = index + 1
-            if ixcount == 1:
-                print name + " is present at " + str(ixcount) + " IX"
-            else:
-                print name + "  is present at " + str(ixcount) + " IXs"
+            # ixcount = index + 1
+            # if ixcount == 1:
+            #    print name + " is present at " + str(ixcount) + " IX"
+            # else:
+            #    print name + "  is present at " + str(ixcount) + " IXs"
         else:
-            print str(ASN) + " does not appear to be in the peeringDB."
-        print
+            print str(ASN) + " does not appear to be in the peeringDB(peeringDB returned zero length doc)."
 
-        print "print prior to return: " + str(mbrasn) + str(mbrname)
-        return mbrasn, mbrname
+    return mbrasn, mbrname
 
 
 def main():
     mbrasn, mbrname = processASNs(ASNlist)
-    print "print AFTER return: " + str(mbrasn) + str(mbrname)
-
     print "******SUMMARY"
     print "The following networks are listed as Equinix-Ashburn Participants"
-    for item in zip(mbrasn, mbrname):
-        print item
+    print "ASN" + "\t" + "Network Name"
+    for a, n in zip(mbrasn, mbrname):
+        print str(a) + '\t' + n
 
 
 main()
