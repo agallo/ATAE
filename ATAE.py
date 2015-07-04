@@ -3,7 +3,7 @@
 __author__ = 'agallo'
 
 # use peeringDB 2.0 API to see if a given ASN lists itself on the Equinix-Ashburn IX
-# TODO - maybe use prettytable/tabulate/panda to form the summary table?
+# TODO - maybe use prettytable/tabulate to form the summary table?
 
 import urllib, json
 from argparse import ArgumentParser
