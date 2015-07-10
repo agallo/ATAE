@@ -65,7 +65,8 @@ def main():
     t = PrettyTable(['ASN', 'Network Name', 'In Ashburn?', 'policy'])
     for a, n in zip(mbrasn, mbrname):
         t.add_row(str(a), n, 'future', 'future')
-        print str(a) + '\t' + n
+
+    print t
 
 
 main()
