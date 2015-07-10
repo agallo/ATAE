@@ -41,12 +41,14 @@ def processASNs(ASNlist):
 
         if not skipindex:
             name = jresponse['data'][0]['name']
+            policy = jresponse['data'][0]['']
             faclist = jresponse['data'][0]['facility_set']
             for index, facility in enumerate(d['facility'] for d in faclist):
                 if facility == 1:
                     # print "YAY! " + name + " is at Equinix-Ashburn"
                     mbrasn.append(ASN)
                     mbrname.append(name)
+                    mbrpolicy.addpend(policy)
             # ixcount = index + 1
             # if ixcount == 1:
             #    print name + " is present at " + str(ixcount) + " IX"
@@ -55,7 +57,7 @@ def processASNs(ASNlist):
         else:
             print str(ASN) + " does not appear to be in the peeringDB(peeringDB returned zero length doc)."
 
-    return mbrasn, mbrname
+    return mbrasn, mbrname, mbrpolicy
 
 
 def main():
@@ -63,8 +65,8 @@ def main():
     print "******SUMMARY"
     print "The following networks are listed as Equinix-Ashburn Participants"
     t = PrettyTable(['ASN', 'Network Name', 'In Ashburn?', 'policy'])
-    for a, n in zip(mbrasn, mbrname):
-        t.add_row([str(a), n, 'future', 'future'])
+    for a, n, p in zip(mbrasn, mbrname):
+        t.add_row([str(a), n, 'future', p])
 
     print t
 
