@@ -60,7 +60,7 @@ def processASNs(ASNlist):
                     mbrasn.append(ASN)
                     mbrname.append(name)
                     mbrpolicy.append(policy)
-                    mbrash.appen(True)
+                    mbrash.append(True)
             # ixcount = index + 1
             # if ixcount == 1:
             #    print name + " is present at " + str(ixcount) + " IX"
