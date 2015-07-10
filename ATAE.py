@@ -81,8 +81,8 @@ def main():
     print "******SUMMARY"
     print "The following networks are listed as Equinix-Ashburn Participants"
     t = PrettyTable(['ASN', 'Network Name', 'In Ashburn?', 'policy'])
-    for a, n, p in zip(mbrasn, mbrname, mbrpolicy):
-        t.add_row([str(a), n, mbrash, p])
+    for a, n, p, l in zip(mbrasn, mbrname, mbrpolicy):
+        t.add_row([str(a), n, l, p])
 
     print t
 
