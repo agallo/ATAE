@@ -62,7 +62,7 @@ def processASNs(ASNlist):
 
 
 def main():
-    mbrasn, mbrname = processASNs(ASNlist)
+    mbrasn, mbrname, mbrpolicy = processASNs(ASNlist)
     print "******SUMMARY"
     print "The following networks are listed as Equinix-Ashburn Participants"
     t = PrettyTable(['ASN', 'Network Name', 'In Ashburn?', 'policy'])
