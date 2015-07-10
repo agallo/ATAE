@@ -63,8 +63,11 @@ def processASNs(ASNlist):
             # else:
             #    print name + "  is present at " + str(ixcount) + " IXs"
         else:
-            print str(ASN) + " does not appear to be in the peeringDB(peeringDB returned zero length doc)."
-            print "ASN name from whois: " + str(getASname(ASN))
+            # print str(ASN) + " does not appear to be in the peeringDB(peeringDB returned zero length doc)."
+            mbrasn.append(ASN)
+            mbrname.append(getASname(ASN))
+            mbrpolicy.append('n/a')
+
 
     return mbrasn, mbrname, mbrpolicy
 
