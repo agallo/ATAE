@@ -3,10 +3,11 @@
 __author__ = 'agallo'
 
 # use peeringDB 2.0 API to see if a given ASN lists itself on the Equinix-Ashburn IX
-# TODO - maybe use prettytable/tabulate/panda to form the summary table?
 
 import urllib, json
 from argparse import ArgumentParser
+from prettytable import PrettyTable
+
 
 # setup some command line arguments
 
@@ -35,7 +36,6 @@ def processASNs(ASNlist):
         try:
             jresponse = json.load(raw)
         except ValueError:
-            # print "JSON ValueError (probably zero length doc returned), most likely because " + str(ASN) + " isn't in the PeeringDB"
             skipindex = True
             pass
 
@@ -62,8 +62,9 @@ def main():
     mbrasn, mbrname = processASNs(ASNlist)
     print "******SUMMARY"
     print "The following networks are listed as Equinix-Ashburn Participants"
-    print "ASN" + "\t" + "Network Name"
+    t = PrettyTable(['ASN', 'Network Name', 'In Ashburn?', 'policy'])
     for a, n in zip(mbrasn, mbrname):
+        t.add_row(str(a), n, 'future', 'future')
         print str(a) + '\t' + n
 
 
