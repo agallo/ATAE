@@ -25,6 +25,7 @@ def processASNs(ASNlist):
 
     mbrasn = []
     mbrname = []
+    mbrpolicy = []
     for ASN in ASNlist:
 
         skipindex = False
