@@ -35,6 +35,7 @@ def processASNs(ASNlist):
     mbrasn = []
     mbrname = []
     mbrpolicy = []
+    mbrnash = []
     for ASN in ASNlist:
 
         skipindex = False
@@ -59,6 +60,7 @@ def processASNs(ASNlist):
                     mbrasn.append(ASN)
                     mbrname.append(name)
                     mbrpolicy.append(policy)
+                    mbrash.appen(True)
             # ixcount = index + 1
             # if ixcount == 1:
             #    print name + " is present at " + str(ixcount) + " IX"
@@ -69,18 +71,18 @@ def processASNs(ASNlist):
             mbrasn.append(ASN)
             mbrname.append(getASname(ASN))
             mbrpolicy.append('n/a')
+            mbrash.append(False)
 
-
-    return mbrasn, mbrname, mbrpolicy
+    return mbrasn, mbrname, mbrpolicy, mbrash
 
 
 def main():
-    mbrasn, mbrname, mbrpolicy = processASNs(ASNlist)
+    mbrasn, mbrname, mbrpolicy, mbrash = processASNs(ASNlist)
     print "******SUMMARY"
     print "The following networks are listed as Equinix-Ashburn Participants"
     t = PrettyTable(['ASN', 'Network Name', 'In Ashburn?', 'policy'])
     for a, n, p in zip(mbrasn, mbrname, mbrpolicy):
-        t.add_row([str(a), n, 'future', p])
+        t.add_row([str(a), n, mbrash, p])
 
     print t
 
