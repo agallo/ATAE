@@ -49,7 +49,7 @@ def processASNs(ASNlist):
                     # print "YAY! " + name + " is at Equinix-Ashburn"
                     mbrasn.append(ASN)
                     mbrname.append(name)
-                    mbrpolicy.addpend(policy)
+                    mbrpolicy.append(policy)
             # ixcount = index + 1
             # if ixcount == 1:
             #    print name + " is present at " + str(ixcount) + " IX"
