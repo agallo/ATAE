@@ -7,6 +7,8 @@ __author__ = 'agallo'
 import urllib, json
 from argparse import ArgumentParser
 from prettytable import PrettyTable
+import pythonwhois
+
 
 
 # setup some command line arguments
@@ -20,6 +22,11 @@ args = parser.parse_args()
 
 ASNlist = args.ASN
 
+
+def getASname(ASN):
+    whoisstring = 'AS' + str(ASN)
+    ASNname = pythonwhois.net.get_whois_raw(whoisstring, server='whois.cymru.com')
+    return ASNname[0][8:-1]
 
 def processASNs(ASNlist):
 
@@ -57,6 +64,7 @@ def processASNs(ASNlist):
             #    print name + "  is present at " + str(ixcount) + " IXs"
         else:
             print str(ASN) + " does not appear to be in the peeringDB(peeringDB returned zero length doc)."
+            print "ASN name from whois: " + str(getASname(ASN))
 
     return mbrasn, mbrname, mbrpolicy
 
