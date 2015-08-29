@@ -53,8 +53,8 @@ def processASNs(ASNlist):
         if not skipindex:
             name = jresponse['data'][0]['name']
             policy = jresponse['data'][0]['policy_general']
-            faclist = jresponse['data'][0]['facility_set']
-            for index, facility in enumerate(d['facility'] for d in faclist):
+            faclist = jresponse['data'][0]['fac_set']
+            for index, facility in enumerate(d['fac_id'] for d in faclist):
                 if facility == 1:
                     # print "YAY! " + name + " is at Equinix-Ashburn"
                     mbrasn.append(ASN)
