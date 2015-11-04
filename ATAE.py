@@ -43,7 +43,7 @@ def processASNs(ASNlist):
         baseurl = "https://beta.peeringdb.com/api/asn/" + str(ASN)
 
         raw = urllib.urlopen(baseurl)
-
+        # if we get a blank doc, json.load can't parse the response and will throw an error
         try:
             jresponse = json.load(raw)
         except ValueError:
@@ -53,7 +53,7 @@ def processASNs(ASNlist):
         if not skipindex:
             name = jresponse['data'][0]['name']
             policy = jresponse['data'][0]['policy_general']
-            faclist = jresponse['data'][0]['fac_set']
+            faclist = jresponse['data'][0]['netfac_set']
             for index, facility in enumerate(d['fac_id'] for d in faclist):
                 if facility == 1:
                     # print "YAY! " + name + " is at Equinix-Ashburn"
