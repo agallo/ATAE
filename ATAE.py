@@ -6,9 +6,8 @@ __author__ = 'agallo'
 <<<<<<< HEAD
 # TODO - suppress lookup of networks not in non-Ashburn
 # TODO - create different tables for non-Ashburn networks
-=======
 # TODO - maybe use prettytable/tabulate to form the summary table?
->>>>>>> f74b3d2e00f388003150f6f96a076fbcf5a4070e
+# TODO - accept list of ASNs in a file (would need to sort & dedup the list)
 
 import urllib, json
 from argparse import ArgumentParser
