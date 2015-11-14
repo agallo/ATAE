@@ -1,0 +1,1359 @@
+{
+  "meta": {}, 
+  "data": [
+    {
+      "id": 2, 
+      "name": "Akamai Technologies", 
+      "aka": "32787", 
+      "website": "http://www.akamai.com/", 
+      "asn": 20940, 
+      "irr_as_set": "AS-AKAMAI", 
+      "info_type": "Content", 
+      "info_prefixes4": 50, 
+      "info_prefixes6": 50, 
+      "info_traffic": "1 Tbps+", 
+      "info_ratio": "Heavy Outbound", 
+      "info_scope": "Global", 
+      "info_unicast": true, 
+      "info_multicast": false, 
+      "info_ipv6": true, 
+      "updated": "2015-06-25T22:41:52Z", 
+      "notes_public": "AS 32787 has been acquired by AS 20940. Routing policies will remain discrete. Requests to peering@akamai.com are suitable for both.", 
+      "policy_url": "", 
+      "policy_general": "Open", 
+      "policy_locations": "Not Required", 
+      "policy_ratio": false, 
+      "policy_contracts": "Not Required", 
+      "facility_set": [
+        {
+          "network": 2, 
+          "facility": 1, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 3, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 4, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 5, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 6, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 7, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 8, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 9, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 11, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 12, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 15, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 16, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 18, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 19, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 20, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 34, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 38, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 42, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 45, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 46, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 56, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 63, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 67, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 68, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 69, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 71, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 74, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 75, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 78, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 81, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 83, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 86, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 106, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 109, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 119, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 130, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 134, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 142, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 148, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 165, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 166, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 170, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 177, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 208, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 226, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 282, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 392, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 445, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 452, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 462, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 494, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 526, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 782, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 1177, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 1792, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 1910, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 1917, 
+          "local_asn": 20940
+        }, 
+        {
+          "network": 2, 
+          "facility": 1918, 
+          "local_asn": 20940
+        }
+      ], 
+      "ixlink_set": [
+        {
+          "network": 2, 
+          "ixlan": 193, 
+          "notes": "DEPARTING DFW", 
+          "speed": 0, 
+          "asn": 20940, 
+          "ipaddr4": null, 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 262, 
+          "notes": "DEPARTING SEA", 
+          "speed": 0, 
+          "asn": 20940, 
+          "ipaddr4": null, 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 195, 
+          "notes": "DEPARTING NYC", 
+          "speed": 0, 
+          "asn": 20940, 
+          "ipaddr4": null, 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 182, 
+          "notes": "PENDING SFMIX", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": null, 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 181, 
+          "notes": "PENDING NWAX", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": null, 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 181, 
+          "notes": "NWAX PENDING", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": null, 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 356, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": null, 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 306, 
+          "notes": "SNAP PENDING", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": null, 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 1, 
+          "notes": "", 
+          "speed": 100000, 
+          "asn": 20940, 
+          "ipaddr4": "195.66.224.168", 
+          "ipaddr6": "2001:7f8:4::51cc:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 1, 
+          "notes": "", 
+          "speed": 200000, 
+          "asn": 20940, 
+          "ipaddr4": "195.66.226.81", 
+          "ipaddr6": "2001:7f8:4::51cc:2"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 1, 
+          "notes": "", 
+          "speed": 200000, 
+          "asn": 20940, 
+          "ipaddr4": "195.66.226.167", 
+          "ipaddr6": "2001:7f8:4::51cc:3"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 2, 
+          "notes": "", 
+          "speed": 300000, 
+          "asn": 20940, 
+          "ipaddr4": "80.249.208.168", 
+          "ipaddr6": "2001:7f8:1::a502:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 2, 
+          "notes": "", 
+          "speed": 300000, 
+          "asn": 20940, 
+          "ipaddr4": "80.249.209.208", 
+          "ipaddr6": "2001:7f8:1::a502:940:2"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 2, 
+          "notes": "", 
+          "speed": 300000, 
+          "asn": 20940, 
+          "ipaddr4": "80.249.211.233", 
+          "ipaddr6": "2001:7f8:1::a502:940:3"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 3, 
+          "notes": "", 
+          "speed": 80000, 
+          "asn": 20940, 
+          "ipaddr4": "193.203.0.168", 
+          "ipaddr6": "2001:7f8:30:0:2:1:2:940"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 4, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "194.53.172.121", 
+          "ipaddr6": "2001:7f8:26::a502:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 5, 
+          "notes": "", 
+          "speed": 200000, 
+          "asn": 20940, 
+          "ipaddr4": "194.68.123.170", 
+          "ipaddr6": "2001:7f8:d:fe::170"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 5, 
+          "notes": "", 
+          "speed": 200000, 
+          "asn": 20940, 
+          "ipaddr4": "194.68.128.170", 
+          "ipaddr6": "2001:7f8:d:ff::170"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 8, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "217.29.66.166", 
+          "ipaddr6": "2001:7f8:b:100:1d1:a5d2:940:166"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 9, 
+          "notes": "", 
+          "speed": 400000, 
+          "asn": 20940, 
+          "ipaddr4": "80.81.192.28", 
+          "ipaddr6": "2001:7f8::51cc:0:28"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 9, 
+          "notes": "", 
+          "speed": 400000, 
+          "asn": 20940, 
+          "ipaddr4": "80.81.192.168", 
+          "ipaddr6": "2001:7f8::51cc:0:168"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 13, 
+          "notes": "", 
+          "speed": 0, 
+          "asn": 20940, 
+          "ipaddr4": "193.232.245.38", 
+          "ipaddr6": "2001:7f8:20:101::245:38"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 13, 
+          "notes": "", 
+          "speed": 0, 
+          "asn": 20940, 
+          "ipaddr4": "193.232.247.38", 
+          "ipaddr6": "2001:7f8:20:102::247:38"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 15, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "91.210.16.221", 
+          "ipaddr6": "2001:7f8:14::2f:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 17, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "193.201.28.38", 
+          "ipaddr6": "2001:7f8:10::2:940"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 18, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "5.57.80.72", 
+          "ipaddr6": "2001:7f8:17::51cc:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 20, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "193.242.111.55", 
+          "ipaddr6": "2001:7f8:18::55"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 21, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "193.178.185.22", 
+          "ipaddr6": "2001:7f8:19:1::51cc:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 22, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "194.42.48.48", 
+          "ipaddr6": "2001:7f8:c:8235:194:42:48:48"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 27, 
+          "notes": "", 
+          "speed": 100000, 
+          "asn": 20940, 
+          "ipaddr4": "193.239.116.226", 
+          "ipaddr6": "2001:7f8:13::a502:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 29, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "192.38.7.24", 
+          "ipaddr6": "2001:7f8:1f:0:2:940:24:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 30, 
+          "notes": "", 
+          "speed": 80000, 
+          "asn": 20940, 
+          "ipaddr4": "194.9.117.67", 
+          "ipaddr6": "2001:7f8:8:5:0:51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 35, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "195.182.218.115", 
+          "ipaddr6": "2001:7f8:42::a502:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 36, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "86.104.125.80", 
+          "ipaddr6": "2001:7f8:64:225:0:2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 39, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "193.169.198.88", 
+          "ipaddr6": "2001:7f8:58::51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 40, 
+          "notes": "", 
+          "speed": 80000, 
+          "asn": 20940, 
+          "ipaddr4": "37.49.236.168", 
+          "ipaddr6": "2001:7f8:54::168"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 42, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "198.32.124.114", 
+          "ipaddr6": "2001:478:124::114"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 43, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "210.171.224.201", 
+          "ipaddr6": "2001:de8:8::2:940:2"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 46, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "80.81.203.168", 
+          "ipaddr6": "2001:7f8:3d::51cc:0:168"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 50, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "218.100.6.67", 
+          "ipaddr6": "2001:de8:c::2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 51, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "206.72.210.82", 
+          "ipaddr6": "2001:504:13::210:82"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 53, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "80.81.202.168", 
+          "ipaddr6": "2001:7f8:44::51cc:0:0"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 54, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "187.16.220.8", 
+          "ipaddr6": "2001:12f8::220:8"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 55, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "198.32.132.73", 
+          "ipaddr6": "2001:478:132::73"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 59, 
+          "notes": "", 
+          "speed": 2000, 
+          "asn": 20940, 
+          "ipaddr4": "200.0.20.25", 
+          "ipaddr6": "2001:13c7:6004::a502:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 60, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "193.149.1.72", 
+          "ipaddr6": "2001:7f8:f::27"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 60, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "193.149.1.218", 
+          "ipaddr6": "2001:7f8:f:1::27"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 66, 
+          "notes": "", 
+          "speed": 80000, 
+          "asn": 20940, 
+          "ipaddr4": "206.126.236.102", 
+          "ipaddr6": "2001:504:0:2:0:2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 66, 
+          "notes": "", 
+          "speed": 80000, 
+          "asn": 20940, 
+          "ipaddr4": "206.126.236.103", 
+          "ipaddr6": "2001:504:0:2:0:2:940:2"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 69, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "192.145.251.65", 
+          "ipaddr6": "2001:7fa:8::2a"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 474, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.41.106.16", 
+          "ipaddr6": "2001:504:3d:1:0:a502:940:2"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 73, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "194.59.190.59", 
+          "ipaddr6": "2001:7f8:2c:1000:0:a502:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 384, 
+          "notes": "", 
+          "speed": 100000, 
+          "asn": 20940, 
+          "ipaddr4": "195.66.236.168", 
+          "ipaddr6": "2001:7f8:4:1::51cc:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 384, 
+          "notes": "", 
+          "speed": 100000, 
+          "asn": 20940, 
+          "ipaddr4": "195.66.238.81", 
+          "ipaddr6": "2001:7f8:4:1::51cc:2"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 94, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "195.69.117.170", 
+          "ipaddr6": "2001:7f8:d:200::170"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 101, 
+          "notes": "", 
+          "speed": 1000, 
+          "asn": 20940, 
+          "ipaddr4": "198.32.212.44", 
+          "ipaddr6": "2001:7fa:11::51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 103, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "123.255.91.95", 
+          "ipaddr6": "2001:7fa:0:1::ca28:a15f"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 103, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "123.255.91.230", 
+          "ipaddr6": "2001:7fa:0:1::ca28:a1e6"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 109, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "103.246.232.201", 
+          "ipaddr6": "2001:de8:8:6:0:2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 111, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "192.203.154.177", 
+          "ipaddr6": "2001:7fa:4:c0cb::9ab1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 444, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "37.49.232.26", 
+          "ipaddr6": "2a00:a4c0:2000::26"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 117, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "198.32.146.79", 
+          "ipaddr6": "2001:504:a::a502:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 118, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "198.32.160.47", 
+          "ipaddr6": "2001:504:1::a502:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 125, 
+          "notes": "", 
+          "speed": 80000, 
+          "asn": 20940, 
+          "ipaddr4": "206.81.80.113", 
+          "ipaddr6": "2001:504:16::51cc"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 126, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.41.110.24", 
+          "ipaddr6": "2001:504:41:110::24"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 137, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "206.108.34.24", 
+          "ipaddr6": "2001:504:1a::34:24"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 147, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "202.167.228.102", 
+          "ipaddr6": "2001:de8:6::2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 148, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "119.27.63.102", 
+          "ipaddr6": "2001:de8:7::2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 149, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "202.79.197.102", 
+          "ipaddr6": "2001:de8:4::2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 150, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "203.190.230.22", 
+          "ipaddr6": "2001:de8:5::2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 151, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "218.100.44.170", 
+          "ipaddr6": "2001:de8:10::71"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 475, 
+          "notes": "", 
+          "speed": 1000, 
+          "asn": 20940, 
+          "ipaddr4": "206.41.109.16", 
+          "ipaddr6": "2001:504:3f::51cc"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 477, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.108.115.14", 
+          "ipaddr6": "2001:504:38:1:0:a502:940:3"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 480, 
+          "notes": "", 
+          "speed": 30000, 
+          "asn": 20940, 
+          "ipaddr4": "206.41.108.17", 
+          "ipaddr6": "2001:504:40:108::1:17"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 174, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "198.32.122.18", 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 176, 
+          "notes": "", 
+          "speed": 1000, 
+          "asn": 20940, 
+          "ipaddr4": "200.0.22.8", 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 183, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.108.114.6", 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 487, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "43.243.21.15", 
+          "ipaddr6": "2001:7fa:11:6:0:51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 190, 
+          "notes": "", 
+          "speed": 4000, 
+          "asn": 20940, 
+          "ipaddr4": "198.32.172.64", 
+          "ipaddr6": "2001:478:172::64"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 201, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "198.32.146.30", 
+          "ipaddr6": "2001:504:a::a501:2222:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 505, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.53.137.21", 
+          "ipaddr6": "2001:504:44::2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 202, 
+          "notes": "", 
+          "speed": 80000, 
+          "asn": 20940, 
+          "ipaddr4": "198.32.176.127", 
+          "ipaddr6": "2001:504:d::2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 209, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.41.104.35", 
+          "ipaddr6": "2001:504:39::35"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 213, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "198.179.18.27", 
+          "ipaddr6": "2001:504:2d::18:27"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 215, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.41.105.35", 
+          "ipaddr6": "2001:504:3b::35"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 217, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.197.210.32", 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 225, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "91.217.231.24", 
+          "ipaddr6": "2001:7f8:67::51cc:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 247, 
+          "notes": "", 
+          "speed": 1000, 
+          "asn": 20940, 
+          "ipaddr4": "218.100.3.42", 
+          "ipaddr6": "2001:7fa:c::42"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 248, 
+          "notes": "", 
+          "speed": 1000, 
+          "asn": 20940, 
+          "ipaddr4": "218.100.0.86", 
+          "ipaddr6": "2001:7fa:9::86"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 251, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "218.100.13.78", 
+          "ipaddr6": "2001:7fa:e::78"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 252, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "218.100.2.64", 
+          "ipaddr6": "2001:7fa:b::33"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 552, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.53.143.2", 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 256, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.108.255.84", 
+          "ipaddr6": "2001:504:27::51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 259, 
+          "notes": "", 
+          "speed": 100000, 
+          "asn": 20940, 
+          "ipaddr4": "194.146.118.84", 
+          "ipaddr6": "2001:7f8:8::51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 260, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "193.42.155.50", 
+          "ipaddr6": "2001:7f8:8:10:0:51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 267, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "195.66.244.53", 
+          "ipaddr6": "2001:7f8:4:2::51cc:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 268, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "196.46.25.212", 
+          "ipaddr6": "2001:43f8:6d0::212"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 270, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "103.247.139.17", 
+          "ipaddr6": "2001:df0:296::a502:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 272, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "218.100.36.86", 
+          "ipaddr6": "2001:7fa:f::7b"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 277, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "103.16.102.77", 
+          "ipaddr6": "2001:de8:12:100::77"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 279, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "185.1.8.16", 
+          "ipaddr6": "2001:7f8:73::51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 290, 
+          "notes": "", 
+          "speed": 1000, 
+          "asn": 20940, 
+          "ipaddr4": "218.100.76.16", 
+          "ipaddr6": "2001:7fa:11:2:0:51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 291, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "218.100.78.36", 
+          "ipaddr6": "2001:7fa:11:1:0:51cc:0:2"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 292, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "218.100.52.8", 
+          "ipaddr6": "2001:7fa:11:4:0:51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 294, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.72.208.7", 
+          "ipaddr6": "2001:504:26::2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 298, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.108.236.2", 
+          "ipaddr6": "2001:504:24:1::51cc:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 301, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.126.240.15", 
+          "ipaddr6": "2001:504:34:1:0:a502:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 302, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "193.218.0.91", 
+          "ipaddr6": "2001:67c:29f0::2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 304, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.123.7.18", 
+          "ipaddr6": null
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 305, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.126.235.4", 
+          "ipaddr6": "2001:504:33::4"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 308, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.130.10.100", 
+          "ipaddr6": "2001:504:36::51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 309, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 20940, 
+          "ipaddr4": "206.55.196.4", 
+          "ipaddr6": "2001:504:31::51cc:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 310, 
+          "notes": "", 
+          "speed": 40000, 
+          "asn": 20940, 
+          "ipaddr4": "62.69.146.12", 
+          "ipaddr6": "2001:7f8:8:20:0:51cc:0:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 311, 
+          "notes": "", 
+          "speed": 20000, 
+          "asn": 20940, 
+          "ipaddr4": "198.32.182.127", 
+          "ipaddr6": "2001:504:10::2:940:1"
+        }, 
+        {
+          "network": 2, 
+          "ixlan": 327, 
+          "notes": "", 
+          "speed": 1000, 
+          "asn": 20940, 
+          "ipaddr4": "193.189.130.34", 
+          "ipaddr6": null
+        }
+      ], 
+      "poc_set": []
+    }
+  ]
+}

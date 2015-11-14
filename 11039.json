@@ -1,0 +1,48 @@
+{
+  "meta": {}, 
+  "data": [
+    {
+      "id": 2845, 
+      "name": "The George Washington University", 
+      "aka": "", 
+      "website": "http://www.gwu.edu", 
+      "asn": 11039, 
+      "irr_as_set": "AS-GWU", 
+      "info_type": "Educational/Research", 
+      "info_prefixes4": 10, 
+      "info_prefixes6": 10, 
+      "info_traffic": "1-5Gbps", 
+      "info_ratio": "Mostly Inbound", 
+      "info_scope": "Regional", 
+      "info_unicast": true, 
+      "info_multicast": false, 
+      "info_ipv6": true, 
+      "updated": "2015-06-25T22:43:07Z", 
+      "notes_public": "We'll peer with you, just ask!\r\n\r\nGW prefixes are now signed with ROAs.  Join in the RPKI fun!\r\nWe are a BCP38 network.\r\n\r\nWe're on the MLPE at Equinix Ashburn.  ", 
+      "policy_url": "", 
+      "policy_general": "Open", 
+      "policy_locations": "Not Required", 
+      "policy_ratio": false, 
+      "policy_contracts": "Not Required", 
+      "facility_set": [
+        {
+          "network": 2845, 
+          "facility": 1, 
+          "local_asn": 11039
+        }
+      ], 
+      "ixlink_set": [
+        {
+          "network": 2845, 
+          "ixlan": 66, 
+          "notes": "", 
+          "speed": 10000, 
+          "asn": 11039, 
+          "ipaddr4": "206.126.236.172", 
+          "ipaddr6": "2001:504:0:2:0:1:1039:1"
+        }
+      ], 
+      "poc_set": []
+    }
+  ]
+}

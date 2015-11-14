@@ -3,7 +3,6 @@
 __author__ = 'agallo'
 
 # use peeringDB 2.0 API to see if a given ASN lists itself on the Equinix-Ashburn IX
-<<<<<<< HEAD
 # TODO - suppress lookup of networks not in non-Ashburn
 # TODO - create different tables for non-Ashburn networks
 # TODO - maybe use prettytable/tabulate to form the summary table?
